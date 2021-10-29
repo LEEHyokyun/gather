@@ -1,0 +1,44 @@
+.head{
+    padding: 0.5%;
+    text-align: center;
+}
+
+.img{
+    
+}
+
+
+.head h1{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.head h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 2%;
+}
+
+.content{
+    display: flex;
+    
+    padding: 10%;
+    justify-content: space-around;
+}
+
+.homepg{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    border-bottom: 0.5px groove gray;
+
+    cursor: pointer;
+}
+
+.testpg{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    border-bottom: 0.5px groove gray;
+
+    cursor: pointer;
+}

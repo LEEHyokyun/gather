@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<!--head는 화면에 출력되지는 않지만, 웹브라우저가 알아야 할 중요한 정보들이 기재되어있는 곳-->
+	<!--문서정보 : 문서제목, 제작자, 프로그램언어, style(문서장식)-->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="stylesheet_cover.css">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Open+Sans:wght@300&family=Rampart+One&display=swap" rel="stylesheet">
+		<title>DISQUIET COVER</title>
+	</head>
+	<body>
+		<div class="head">
+			<img class="img" src="./img/logo.jpeg">
+				<h1>DISQUIET*</h1>
+				<h2>함께 꾸는 꿈은 현실이 된다</h2>
+        </div>
+		<div class="content">
+			<div class="homepg">디스콰이엇 홈페이지</div>
+			<div class="testpg">베타테스터 신청</div>			
+		</div>
+		<script>
+			homepg = document.querySelector('.homepg');
+			homepg.addEventListener('click', (e)=>{
+				console.log('LINK TO HOMEPAGE');
+			});
+		</script>
+	</body>
+</html>
